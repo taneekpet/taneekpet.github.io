@@ -11,10 +11,10 @@ description: White-Clean Jekyll Theme
 logo:  "/assets/img/logo.png"
 cover: "/assets/img/cover.png"
 
-baseurl: "/polar"
-url:     "https://neizod.github.io"
+baseurl: "/"
+url:     "https://taneekpet.github.io"
 
-owner:  neizod
+owner:  taneekpet
 rights: All Right Reserved
 
 
