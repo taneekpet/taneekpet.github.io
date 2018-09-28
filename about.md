@@ -1,6 +1,6 @@
 ---
 layout: empty/about
-title: About Me
+title: About the
 ---
 
 ![My picture]({{ site.baseurl }}/images/my-picture.jpg)
