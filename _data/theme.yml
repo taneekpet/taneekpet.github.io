@@ -1,8 +1,8 @@
 #TODO set each item to null then define your css color in _sass/ dir.
 #     preset: palette = { north-pole, aurora }, highlight = { github, monokai }
 color:
-  palette:   
-  highlight: github
+  palette:   aurora
+  highlight: monokai
 
 
 #TODO set short, long to null then define your display in _include/date/ dir.
