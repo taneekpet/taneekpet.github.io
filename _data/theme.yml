@@ -29,7 +29,7 @@ navigation:
 #TODO you may customize padding text here.
 text:
   meta:
-    title_sep:    "|"
+    title_sep:    ""
   menu:
     item_sep:     "⋅"
   unconfig:
