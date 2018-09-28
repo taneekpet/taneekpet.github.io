@@ -3,27 +3,19 @@ layout: empty/about
 title: About Me
 ---
 
-![Picture from Wikimedia -- Polar Bear - Alaska.]({{ site.baseurl }}/images/polar-bear-alaska.jpg)
+![My picture]({{ site.baseurl }}/images/my-picture.jpg)
 
-Hi, I'm a Polar Bear. Nice to meet you!
-
-
-Things I Like
--------------
-
-1. Seals
-2. Ice
-3. Sleep
+You don't need to see my picture, I'm fabulous, trust me.
 
 
-Things I Hate
--------------
+My journey
+---------
 
-1. Global Warming
-2. Diet
+- [Github][github]
+- Programmer, using Node.js, also little this and that.
+- Kasetsart University, Computer Engineering, bachelor and master.
+- Still want to see my picture? [click here][joke]
 
 
-More ...
---------
-
-This "About Me" page is assembled up with almost no template at all. You should design this page to impress your audience by yourself.
+[github]: //github.com/taneekpet
+[joke]: //www.youtube.com/watch?v=dQw4w9WgXcQ
