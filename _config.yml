@@ -6,10 +6,10 @@
 # --------
 
 title:       Lazy programmer
-description: Under maintainence
+description: Life is always under maintainence
 
 logo:  "/assets/img/logo.jpg"
-cover: "/assets/img/cover.png"
+cover: "/assets/img/cover.jpg"
 
 baseurl: "/"
 url:     "https://taneekpet.github.io"
@@ -41,7 +41,7 @@ disqus:
 # --------------
 
 timezone: Asia/Bangkok
-paginate: 3
+paginate: 4
 mathjax:  true
 
 
