@@ -11,7 +11,7 @@ description: White-Clean Jekyll Theme
 logo:  "/assets/img/logo.png"
 cover: "/assets/img/cover.png"
 
-baseurl: "/polar"
+baseurl: "/"
 url:     "https://neizod.github.io"
 
 owner:  neizod
