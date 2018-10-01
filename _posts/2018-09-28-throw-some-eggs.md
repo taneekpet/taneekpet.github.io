@@ -82,7 +82,7 @@ $$ \begin{align}
     \frac{N}{s} + s     &=  \frac{N}{\sqrt{N}} + \sqrt{N} \\
                         &=  \sqrt{N} + \sqrt{N} \\
                         &=  2\sqrt{N} \\
-                        &=  O(\sqrt{N} \\
+                        &=  O(\sqrt{N}) \\
 \end{align} $$
 
 ทำให้ดีกว่านี้ได้ไหม?
