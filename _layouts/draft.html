@@ -2,9 +2,11 @@
 layout: default
 ---
 
+{% assign prefix = 'Draft of ' %}
+{% assign myTitle = prefix | append: page.title %}
 {% include article.html 
     class="page" 
-    title="Draft of {{page.title}}" 
+    title="myTitle" 
     content=content 
     date=page.date 
     tags=page.tags %}
