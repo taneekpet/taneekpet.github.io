@@ -1,7 +1,7 @@
 {% capture NOOUT %}
   {% assign homepage-empty = true %}
   {% for collection in site.collections %}
-    {% if collection.docs.size != 0 %}
+    {% if collection.drafts.size != 0 %}
       {% assign homepage-empty = false %}
       {% break %}
     {% endif %}
