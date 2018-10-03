@@ -6,7 +6,7 @@ layout: default
 {% assign myTitle = prefix | append: page.title %}
 {% include article.html 
     class="page" 
-    title="myTitle" 
+    title=myTitle 
     content=content 
     date=page.date 
     tags=page.tags %}
