@@ -5,7 +5,8 @@ title: About the
 
 ![My picture]({{ site.baseurl }}/images/my-picture.jpg)
 
-You don't need to see my picture, I'm fabulous, trust me.
+
+Tanee K. is my first name and last name. You don't need to see my picture, I'm fabulous, trust me.
 
 
 My journey

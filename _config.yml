@@ -52,7 +52,7 @@ mathjax:  true
 collections:
   projects:
     output: true
-  docs:
+  drafts:
     output: true
 
 defaults:
@@ -73,9 +73,9 @@ defaults:
       layout: project
   - scope:
       path: ""
-      type: docs
+      type: drafts
     values:
-      layout: doc
+      layout: draft
 
 permalink: date
 paginate_path: "/posts/page:num"
