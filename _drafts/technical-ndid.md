@@ -20,7 +20,7 @@ date: 2018-10-03 19:45:00 +0700
 [เว็บหลักของข้อมูลทางเทคนิค][home]
 
 ภาพรวมของระบบ NDID
-----
+-----
 
 ![ndid-architecture-zoom-out]({{ site.baseurl }}/images/ndid-architecture-zoom-out.jpg)
 
@@ -34,7 +34,7 @@ date: 2018-10-03 19:45:00 +0700
 และด้านขวาคือส่วนประกอบของแต่ละโมดูลใน NDID Node
 
 Architecture ของระบบ
-----
+-----
 
 ![ndid-architecture-zoom-in]({{ site.baseurl }}/images/ndid-architecture-zoom-in.jpg)
 
@@ -49,17 +49,41 @@ Repository หลักของระบบนี้ประกอบด้ว
 ซึ่งระหว่าง API และ Smart-contract จะเชื่อมกันด้วย JSON-RPC over HTTP และ Websocket
 
 หน้าที่ของแต่ละโมดูล
+-----
+
+API Repository
 ----
 
 API
 ---
 
+Node Logic
+---
+
+Redis DB
+---
+
+Distributed Message (ZMQ)
+---
+
+Smart-contract repository
+----
+
+Tendermint
+---
+
+ABCI
+---
+
+App State DB
+---
+
 
 เทคโนโลยีของแต่ละโมดูล
-----
+-----
 
 ต่อเชื่อมกันยังไง
-----
+-----
 
 
 
