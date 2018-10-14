@@ -19,8 +19,7 @@ date: 2018-10-03 19:45:00 +0700
 โพสต์จะอธิบายเชิงเทคนิคว่า NDID ทำงานอย่างไร คนที่อยากต่อเชื่อมกับ NDID จะทำอย่างไร
 [เว็บหลักของข้อมูลทางเทคนิค][home]
 
-ภาพรวมของระบบ NDID
------
+## ภาพรวมของระบบ NDID
 
 ![ndid-architecture-zoom-out]({{ site.baseurl }}/images/ndid-architecture-zoom-out.jpg)
 
@@ -33,8 +32,7 @@ date: 2018-10-03 19:45:00 +0700
 
 และด้านขวาคือส่วนประกอบของแต่ละโมดูลใน NDID Node
 
-Architecture ของระบบ
------
+## Architecture ของระบบ
 
 ![ndid-architecture-zoom-in]({{ site.baseurl }}/images/ndid-architecture-zoom-in.jpg)
 
@@ -48,44 +46,29 @@ Repository หลักของระบบนี้ประกอบด้ว
 
 ซึ่งระหว่าง API และ Smart-contract จะเชื่อมกันด้วย JSON-RPC over HTTP และ Websocket
 
-หน้าที่ของแต่ละโมดูล
------
+## หน้าที่ของแต่ละโมดูล
 
-API Repository
-----
+### API Repository
 
-API
----
+#### API
 
-Node Logic
----
+#### Node Logic
 
-Redis DB
----
+#### Redis DB
 
-Distributed Message (ZMQ)
----
+#### Distributed Message (ZMQ)
 
-Smart-contract repository
-----
+### Smart-contract repository
 
-Tendermint
----
+#### Tendermint
 
-ABCI
----
+#### ABCI
 
-App State DB
----
+#### App State DB
 
+## เทคโนโลยีของแต่ละโมดูล
 
-เทคโนโลยีของแต่ละโมดูล
------
-
-ต่อเชื่อมกันยังไง
------
-
-
+## ต่อเชื่อมกันยังไง
 
 [home]: //ndidplatform.github.io/
 [non_technical]: /2018/10/14/introduction-ndid.html
