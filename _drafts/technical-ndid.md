@@ -46,11 +46,10 @@ Repository หลักของระบบนี้ประกอบด้ว
 
 ซึ่งระหว่าง API และ Smart-contract จะเชื่อมกันด้วย JSON-RPC over HTTP และ Websocket
 
-และใน [repositories ของ ndidplatform][repo_all] นอกจากสอง repo ด้านบน
-ยังมี [test][repo_test] ที่เอาไว้รัน end-to-end ก่อนที่จะ release แต่ละเวอร์ชั่น
-
-รวมถึง [examples][repo_examples] ซึ่งจำลองการทำงานเบื้องต้นของแอพลิเคชั่นของสมาชิก
-ซึ่งใช้เพื่อง่ายในการสื่อสารให้เห็นภาพในช่วงแรกๆของการพัฒนาระบบ
+และใน [repositories ของ ndidplatform][repo_all] นอกจากสอง repo ด้านบนยังมี 
+- [test][repo_test] ที่เอาไว้รัน end-to-end ก่อนที่จะ release แต่ละเวอร์ชั่น
+- [examples][repo_examples] ซึ่งจำลองการทำงานเบื้องต้นของแอพลิเคชั่นของสมาชิก
+  - ใช้เพื่อง่ายในการสื่อสารให้เห็นภาพในช่วงแรกๆของการพัฒนาระบบ
 
 ## รายละเอียดของแต่ละโมดูล
 
@@ -100,6 +99,6 @@ Process ในส่วนนี้จะรันอยู่บนเครื
 [repo_api]: //github.com/ndidplatform/api
 [repo_smart_contract]: //github.com/ndidplatform/smart-contract
 [repo_test]: //github.com/ndidplatform/test
-[repo_example]: //github.com/ndidplatform/examples
+[repo_examples]: //github.com/ndidplatform/examples
 
 [tendermint]: //www.tendermint.com/
