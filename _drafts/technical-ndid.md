@@ -16,7 +16,7 @@ date: 2018-10-03 19:45:00 +0700
 
 จาก[โพสต์ที่แล้ว][non_technical]ที่อธิบายคร่าวๆว่า NDID คืออะไร
 
-โพสต์จะอธิบายเชิงเทคนิคว่า NDID ทำงานอย่างไร คนที่อยากต่อเชื่อมกับ NDID จะทำอย่างไร
+โพสต์นี้จะอธิบายเชิงเทคนิคว่า NDID ทำงานอย่างไร คนที่อยากต่อเชื่อมกับ NDID จะทำอย่างไร
 [เว็บหลักของข้อมูลทางเทคนิค][home]
 
 ## ภาพรวมของระบบ NDID
@@ -46,13 +46,28 @@ Repository หลักของระบบนี้ประกอบด้ว
 
 ซึ่งระหว่าง API และ Smart-contract จะเชื่อมกันด้วย JSON-RPC over HTTP และ Websocket
 
-## หน้าที่ของแต่ละโมดูล
+และใน [repositories ของ ndidplatform][repo_all] นอกจากสอง repo ด้านบน
+ยังมี [test][repo_test] ที่เอาไว้รัน end-to-end ก่อนที่จะ release แต่ละเวอร์ชั่น
+
+รวมถึง [examples][repo_examples] ซึ่งจำลองการทำงานเบื้องต้นของแอพลิเคชั่นของสมาชิก
+ซึ่งใช้เพื่อง่ายในการสื่อสารให้เห็นภาพในช่วงแรกๆของการพัฒนาระบบ
+
+## รายละเอียดของแต่ละโมดูล
 
 ### API Repository
 
-#### API
+เป็นส่วนที่ติดต่อกับแอพลิเคชั่นของสมาชิกด้วย REST API พัฒนาด้วย Nodejs
+- ทำหน้าที่เช็คความถูกต้องของข้อมูลที่สมาชิกส่งลงมาก่อนส่งต่อลงไปยัง blockchain
+- ทำหน้าที่จัดการการคำนวณทาง crytography ต่างๆ
+- ทำหน้าที่จัดการ Distributed Message สำหรับส่ง sensitive data ระหว่างสมาชิก
+- ทำหน้าที่จัดการ cache เพื่อให้ process สามารถทำงานต่อได้หลังจาก restart
 
-#### Node Logic
+Process ในส่วนนี้จะรันอยู่บนเครื่องของสมาชิก
+และสมาชิกจะต้องตั้งค่าไฟวอลล์ให้เครื่องรับการเชื่อมต่อจากเครื่องใน network ที่ไว้ใจได้เท่านั้น
+
+ส่วนที่ API Process เชื่อมต่อกับ Internet จะมีแค่ส่วนของ Distributed Message (ZMQ)
+
+#### API และ Node Logic
 
 #### Redis DB
 
@@ -60,17 +75,31 @@ Repository หลักของระบบนี้ประกอบด้ว
 
 ### Smart-contract repository
 
+เป็นส่วนที่จัดการ blockchain เพื่อให้สมาชิกทั้งวงมีข้อมูลที่ตรงกัน
+
+ข้อมูลในส่วนนี้จะเป็นข้อมูลเปิดเผยและ**ไม่มีการเก็บ plain sensitive data ใดๆ ลง blockchain ทั้งสิ้น**
+
+การจะอ่านข้อมูลจาก blockchain นี้ เพียงแค่รู้ genesis file และ chain id ก็สามารถอ่านข้อมูลได้
+แต่การจะตั้ง blockchain node ที่สามารถสร้าง transaction ใดๆลง blockchain 
+จะต้องได้รับการ approve จากบริษัท NDID ก่อนเท่านั้น
+
+โดย blockchain ที่เลือกนำมาใช้ในระบบนี้คือ [tendermint][tendermint]
+
 #### Tendermint
 
 #### ABCI
 
 #### App State DB
 
-## เทคโนโลยีของแต่ละโมดูล
-
 ## ต่อเชื่อมกันยังไง
 
 [home]: //ndidplatform.github.io/
 [non_technical]: /2018/10/14/introduction-ndid.html
+
+[repo_all]: //github.com/ndidplatform
 [repo_api]: //github.com/ndidplatform/api
 [repo_smart_contract]: //github.com/ndidplatform/smart-contract
+[repo_test]: //github.com/ndidplatform/test
+[repo_example]: //github.com/ndidplatform/examples
+
+[tendermint]: //www.tendermint.com/
