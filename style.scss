@@ -23,3 +23,5 @@ $font-mono-line-height: {{ font_mono_line_height }};
 @import "article";
 @import "footer";
 @import "{{ site.data.theme.color.highlight | default: 'custom' | prepend: 'highlight/' }}";
+
+img + em { display: block; text-align: center;}
