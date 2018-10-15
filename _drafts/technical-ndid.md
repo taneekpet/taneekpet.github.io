@@ -22,6 +22,7 @@ date: 2018-10-03 19:45:00 +0700
 ## ภาพรวมของระบบ NDID
 
 ![ndid-architecture-zoom-out]({{ site.baseurl }}/images/ndid-architecture-zoom-out.jpg)
+*ภาพจาก NDID installation guideline*
 
 รูปทางด้านซ้ายคือการเชื่อมต่อของแต่ละองค์กร ซึ่งจะเห็นว่าส่วนที่ติดต่อกันคือส่วนของ NDID Node
 ซึ่ง NDID Node คือซอฟต์แวร์ส่วนที่บริษัท National Digital ID จำกัด จัดทำขึ้น
@@ -37,6 +38,7 @@ date: 2018-10-03 19:45:00 +0700
 ## Architecture ของระบบ
 
 ![ndid-architecture-zoom-in]({{ site.baseurl }}/images/ndid-architecture-zoom-in.jpg)
+*ภาพจาก NDID installation guideline*
 
 Repositories หลักของระบบนี้ที่แนะนำให้สมาชิกนำไปรันประกอบด้วย
 
