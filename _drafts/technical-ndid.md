@@ -94,7 +94,7 @@ Process ในส่วนนี้จะรันอยู่บนเครื
 - ส่งข้อมูลที่ต้องการให้สมาชิกทำการสร้าง digital signature ด้วย private key ของสมาชิก
 - ส่งข้อมูลที่ได้รับจากสมาชิกอื่นผ่านทาง message queue เพื่อให้สมาชิก decrypt ด้วย private key ของตน
 
-** __Application -> API process__ **
+**_Application -> API process_**
 
 เมื่อได้รับ request จากสมาชิก
 Node logic จะทำการตรวจสอบรูปแบบข้อมูลว่าตรงตาม API standard ที่ประกาศไว้หรือไม่
@@ -105,7 +105,7 @@ Node logic จะทำการตรวจสอบรูปแบบข้อ
 
 หลังจากนั้นหากต้องมีการติดต่อส่ง sensitive data ไปยังสมาชิกรายอื่น Node Logic จะนำ public key ของสมาชิกปลายทางมา encrypt ข้อมูลแล้วส่งต่อทาง message queue
 
-** __API process -> Application__ **
+**_API process -> Application_**
 
 เมื่อ Node logic ได้รับข้อมูลผ่านทาง message queue แล้ว
 Node logic จะส่งต่อให้สมาชิกเพื่อทำการ decrypt และอ่านข้อมูลหลังจาก decrypt เก็บพักไว้ใน short term cache
