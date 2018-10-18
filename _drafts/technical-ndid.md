@@ -158,10 +158,18 @@ Node logic จะทำการตรวจสอบความถูกต้
 
 ### Tendermint
 
-- voting power
-- check with ABCI
+Tendermint เป็น light-weight consensus engine ของ blockchain ที่เขียนด้วย golang
+
+ซึ่งตัว tendermint เองนั้น ไม่ได้ช่วยเรื่องการทำ hash เพื่อต่อให้เกิดเป็น chain
+แต่ช่วยเรื่องการกระจาย transaction และทำการ vote เพื่อ validate block แต่ละ block
+
+- Voting power
+  - แต่ละ tendermint node (แยกด้วยคู่ tendermint key) จะมีค่า voting power
+  - การที่แต่ละ block จะได้รับการยอมรับ จะต้องได้รับการ vote >= 2/3 ของผลรวมของ voting power ทั้งระบบ
+  - สมาชิกแต่ละรายจะได้รับ voting power ตามหลักเกณฑ์ที่บริษัท NDID กำหนด
+- ABCI
 - node id
-- hash in consistency cause disconect
+- hash inconsistency cause disconect
 
 ### ABCI
 
