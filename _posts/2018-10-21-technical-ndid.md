@@ -11,7 +11,7 @@ tags:
   - Redis
   - ZMQ
   - Opensource
-date: 2018-10-03 19:45:00 +0700
+date: 2018-10-27 10:35:00 +0700
 ---
 
 จาก[โพสต์ที่แล้ว][non_technical]ที่อธิบายคร่าวๆว่า NDID คืออะไร
@@ -220,7 +220,7 @@ tendermint จะติดต่อกับส่วน ABCI เพื่อต
 ## ตัวอย่างการทำงาน
 
 - Onboard ที่ IDP
-  - การที่ IdP หนึ่งๆจะสามารถยืนยัน consent ให้ user ใดๆได้ user คนนั้นต้องไปทำธุกรรมเพื่ออนุญาตก่อน (ดูหมายเหตุ)
+  - การที่ IdP หนึ่งๆจะสามารถยืนยัน consent ให้ user ใดๆได้ user คนนั้นต้องไปทำธุรกรรมเพื่ออนุญาตก่อน (ดูหมายเหตุ)
     - ในกรณีเป็น IdP แรก จะต้องผ่านการพิสูจน์และยืนยันตัวตนอย่างเข้มงวด
     - ถ้าเกิดมีข้อพิพาทจากความสะเพร่าของ IdP จะมีบทลงโทษจากบริษัท NDID
   - ถ้าเป็น IdP ที่สองเป็นต้นไป การ onboard จะต้องได้รับคำยืนยันจากหนึ่งใน IdP ที่เคย onboard แล้ว
@@ -236,7 +236,7 @@ tendermint จะติดต่อกับส่วน ABCI เพื่อต
   - API process เรียก callback ไปหา IdP application เพื่อให้ decrypt ด้วย private key
   - API process ตรวจสอบข้อมูลที่ได้ ว่าอยู่ในรูปแบบที่ถูกต้อง และคำนวณ hash เทียบกับข้อมูลใน blockchain
   - หากตรงกันจึงเรียก callback ไปหา IdP application เพื่อให้ขอ consent จาก user
-  - เมื่อไก้รับ consent จาก user จะส่งหลักฐานการ consent ให้ API process
+  - เมื่อได้รับ consent จาก user จะส่งหลักฐานการ consent ให้ API process
   - API process คำนวณ hash ของ sensitive data ต่างๆในหลักฐานนั้นเพื่อบันทึกลง blockchain เป็นหลักฐาน
     - บันทึกลง blockchain พร้อม digital signature เพื่อยืนยันตัวตนสมาชิก
   - นำข้อมูลที่เหลือ encrypt ด้วย public key ของ RP แล้วส่งทาง zmq
