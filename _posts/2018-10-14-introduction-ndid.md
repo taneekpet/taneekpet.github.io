@@ -133,9 +133,10 @@ date: 2018-10-14 15:30:00 +0700
 (น่าจะมีท่านอื่นๆอีก แต่ผมอยู่ฝ่ายเทคนิคเลยไม่รู้มากนัก)
 
 โดยที่ระบบนี้จะทำเป็นโครงการ opensource ([ดูซอร์สโค้ดโครงการได้ที่นี่][repo])
-ซึ่งผมวางแผนจะเขียนบล็อกอธิบายสถาปัตยกรรมระบบเชิงเทคนิคในบล็อกถัดๆไป
+ซึ่งผมเขียนบล็อกอธิบายสถาปัตยกรรมระบบเชิงเทคนิคไว้[ที่นี่][technical]
 
 [official]: //www.digitalid.or.th/
 [official_facebook]: //www.facebook.com/NationalDigitalID
 [repo]: //github.com/ndidplatform
 [nicha]: //www.posttoday.com/social/general/535367
+[technical]: /2018/10/27/technical-ndid.html
