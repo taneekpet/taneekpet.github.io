@@ -199,7 +199,7 @@ tendermint จะติดต่อกับส่วน ABCI เพื่อต
 
 ### ABCI (Application-blockchain interface)
 
-![ndid-smart-tendermint]({{ site.baseurl }}/images/ndid-smart-tendermint.jpg)
+![ndid-smart-abci]({{ site.baseurl }}/images/ndid-smart-abci.jpg)
 *ภาพดัดแปลงจาก NDID installation guideline*
 
 เป็นส่วน logic ของ blockchain ที่ติดต่อกับ tendermint เพื่อให้ข้อมูลบน blockchain ของสมาชิกทุกรายนั้นตรงกัน
