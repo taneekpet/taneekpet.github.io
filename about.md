@@ -13,7 +13,7 @@ My journey
 ---------
 
 - [Github][github]
-- Programmer, using Node.js, also little this and that.
+- Programmer, using Node.js with little this and that.
 - Kasetsart University, Computer Engineering, bachelor and master.
 - Still want to see my picture? [click here][joke]
 
