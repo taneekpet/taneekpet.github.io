@@ -19,4 +19,4 @@ My journey
 
 
 [github]: //github.com/taneekpet
-[joke]: //www.youtube.com/watch?v=dQw4w9WgXcQ
+[joke]: //bit.ly/IqT6zt
