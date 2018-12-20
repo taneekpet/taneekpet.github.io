@@ -41,7 +41,7 @@ disqus:
 # --------------
 
 timezone: Asia/Bangkok
-paginate: 4
+paginate: 3
 mathjax:  true
 
 
