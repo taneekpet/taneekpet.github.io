@@ -62,10 +62,14 @@ font:
     families:
       - name: Raleway
         weight: 300
+      - name: K2D
+        weight: 200
     default: sans-serif
   body:
     families:
       - name: Lora
+      - name: Sarabun
+        weight: 400
     default: serif
   mono:
     families:
