@@ -62,7 +62,7 @@ font:
     families:
       - name: Raleway
         weight: 300
-      - name: K2D
+      - name: Niramit
         weight: 200
     default: sans-serif
   body:
