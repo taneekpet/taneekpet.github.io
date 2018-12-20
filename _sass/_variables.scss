@@ -1,12 +1,12 @@
 //TODO if you've change data.theme.color.palette to null,
 //     specify your own colors here.
-$major-color: lighten(lightgreen, 20%);
+$major-color: lighten(lightgreen, 10%);
 $minor-color: lighten(lightgray, 10%);
 $border-color: gainsboro;
 $background-color: white;
 
 $font-color: lighten(black, 15%);
-$link-color: darken(darkgreen, 30%);
+$link-color: darkgreen;
 
 
 // this is preset size, you should not change this.

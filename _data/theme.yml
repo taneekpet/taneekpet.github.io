@@ -62,7 +62,7 @@ font:
     families:
       - name: Raleway
         weight: 300
-      - name: Niramit
+      - name: Bai Jamjuree
         weight: 200
     default: sans-serif
   body:
