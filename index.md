@@ -2,7 +2,7 @@
 layout: empty/homepage
 feature:
   posts:
-    latest: 5
+    latest: 3
     list:
   projects:
     latest: 0
