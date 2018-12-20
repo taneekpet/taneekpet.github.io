@@ -1,8 +1,8 @@
 //TODO if you've change data.theme.color.palette to null,
 //     specify your own colors here.
-$major-color: darken(lightgreen, 20%);
+$major-color: lighten(lightgreen, 20%);
 $minor-color: lighten(lightgray, 10%);
-$border-color: darkgreen;
+$border-color: gainsboro;
 $background-color: white;
 
 $font-color: lighten(black, 15%);
