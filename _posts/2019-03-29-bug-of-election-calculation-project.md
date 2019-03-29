@@ -25,7 +25,7 @@ date: 2019-03-29 07:40:00 +0700
 
 เดี๋ยวไว้จะหาโอกาสปรับปรุงแก้ข้อผิดพลาดทั้งสองอัน เสร็จแล้วจะอัพเดทในหน้า [projects][project-page] ครับ
 
-[project]: //thai-election2019/
+[project]: /thai-election2019/
 [project-page]: /projects
 [score-google-sheets]: //docs.google.com/spreadsheets/d/1xKLvpNFD9JtIY7HJ8vk1AjlVUAT-AjaQrvKDBDv6Tu4/edit#gid=1145377028
 [score-parsed]: /assets/file/parsed-score.csv
