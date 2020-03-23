@@ -3,12 +3,10 @@ title: ไวรัส-ศรัทธา-เทคโนโลยี
 tags:
   - Pandemic
   - Covid-19
-  - Covid
-  - Corona
-  - Wuhan
-  - Mobile app
+  - Mobile application
   - Government
   - Bluetooth
+  - NFC
 date: 2020-03-23 21:20:00 +0700
 ---
 
