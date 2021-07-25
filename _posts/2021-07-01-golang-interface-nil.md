@@ -24,9 +24,9 @@ But if we cast the interface to its underlying type, then the nil comparison is 
 Footnote: You can use `switch input.(type)` to check underlying type of interface and cast it accordingly.
 
 Footnote2: If we define `func testNil(foo, bar interface{}) bool { return foo == bar }` this function called
-$$
+$$ \begin{align}
   `var foo interface{}`
   `var bar *int`
   `testNil(foo, bar)`
-$$
+\end{align} $$
 will return false as they are not the same type.
