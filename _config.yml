@@ -41,9 +41,12 @@ disqus:
 # --------------
 
 timezone: Asia/Bangkok
+show_time: true                         #TODO show time alongside date?
 paginate: 3
 mathjax:  true
 
+theme:
+  highlight: github               
 
 # Engine Config
 # =============
