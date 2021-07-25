@@ -3,7 +3,7 @@ layout: empty/about
 title: About me
 ---
 
-![My picture]({{ site.baseurl }}/images/sitting-cat.jpg)
+![sitting-cat]({{ site.baseurl }}/images/sitting-cat.jpg)
 
 
 Tanee K. is my first name and last name. I am a cat and coffee lover.
