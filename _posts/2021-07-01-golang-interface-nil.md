@@ -18,7 +18,7 @@ func testNil(input interface{}) bool {
 
 func main() {
   var ptr *int
-  log.Printf("%v", testNil(ptr)) // this return false, but I expected it to be true
+  log.Printf("%v", testNil(ptr)) // this return false, but I expect it to be true
 }
 ```
 

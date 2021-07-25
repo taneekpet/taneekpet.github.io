@@ -23,7 +23,7 @@ date: 2018-10-11 19:05:00 +0700
 
 แปลว่าถ้าเราสร้าง function 
 
-$$ f(result) = answer $$ 
+$ f(result) = answer $ 
 
 จากผลลัพธ์การโยนที่เป็นไปได้ (`result`) ไปยังคำตอบของปัญหา (`answer`)
 
@@ -37,7 +37,7 @@ $$
 \begin{align}
     2^k   &\ge  N   \\
     k     &\ge  log_2 N
-\end{align} 
+\end{align}
 $$
 
 นั่นคือต้องโยนอย่างน้อย $ O(log N) $ ครั้ง
