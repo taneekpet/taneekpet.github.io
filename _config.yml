@@ -5,11 +5,11 @@
 # Identity
 # --------
 
-title:       Lazy programmer
+title:       Programmer with anxiety
 description: Life is always under maintenance
 
 logo:  "/assets/img/logo.jpg"
-cover: "/assets/img/cover.jpg"
+#cover: "/assets/img/cover.jpg"
 
 baseurl: "/"
 url:     "https://taneekpet.github.io"

@@ -3,19 +3,19 @@ layout: empty/about
 title: About the
 ---
 
-![My picture]({{ site.baseurl }}/images/my-picture.jpg)
+![My picture]({{ site.baseurl }}/images/sitting-cat.jpg)
 
 
-Tanee K. is my first name and last name. You don't need to see my picture, I'm fabulous, trust me.
+Tanee K. is my first name and last name. I am a cat and coffee lover.
 
 
 My journey
 ---------
 
 - [Github][github]
-- Programmer, using Node.js with little this and that.
+- Programmer, with mainly Golang and Node.js with little this and that.
 - Kasetsart University, Computer Engineering, bachelor and master.
-- Still want to see my picture? [click here][joke]
+- Want to see my picture? [click here][joke]
 
 
 [github]: //github.com/taneekpet
