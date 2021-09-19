@@ -1,5 +1,5 @@
 ---
-title: Squid game spoiler
+title: Squid game calculation
 tags:
   - Squid game
   - Netflix
