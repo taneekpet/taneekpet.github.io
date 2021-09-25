@@ -89,12 +89,17 @@ func main() {
 	for j := 1; j <= K; j++ {
 		log.Printf("Bridge: %d", j)
 		for i := 1; i <= N; i++ {
-			log.Printf("\tPlayer#%d survive: %v", i, survive(i, j))
+			log.Printf("\tPlayer#%d survive chance: %.5f %%", i, survive(i, j)*100)
 		}
 	}
 }
 ```
 
+![result]({{ site.baseurl }}/images/squid-game-result.jpg)
+*โอกาสรอดของผู้เล่นแต่ละคนในซีรีส์*
+
 ถ้าลองคิด Expected value ว่าผู้เล่นหนึ่งคนจะเบิกทางให้คนหลังได้กี่ก้าว จะได้ออกมาที่ 2 ก้าว
 
 เพราะฉะนั้นคนตำแหน่งกลางๆจะมีโอกาสรอดประมาณ 50%
+
+Edited (25/09/2564 11:40): แก้โค้ดเป็น % และแปะผลลัพธ์สำหรับ scenario ในซีรีส์
