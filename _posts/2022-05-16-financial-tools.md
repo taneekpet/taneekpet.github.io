@@ -26,7 +26,7 @@ date: 2022-05-16 17:00:00 +0700
 คือเครื่องมือทางการเงินใดๆที่เกี่ยวข้องกับหุ้นตัวใดตัวหนึ่งเป็นพิเศษ มีหลายชนิด ในบล็อกนี้จะพูดถึงแค่ warrants กับ options
 
 ![tools]({{ site.baseurl }}/images/financial_tools.jpg)
-*ความสัมพันธ์ของ Derivatives, warrants (ในรูปตกตัว s), options*
+*ความสัมพันธ์ของ Derivatives, warrants, options*
 
 Options 
 ----
