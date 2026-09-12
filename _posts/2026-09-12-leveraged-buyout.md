@@ -1,5 +1,5 @@
 ---
-title: Levereaged buyout
+title: Leveraged buyout
 tags:
   - Financial
   - Leveraged
@@ -8,17 +8,12 @@ date: 2026-09-12 17:00:00 +0700
 
 ต่อเนื่องจาก[โพสก่อน][previous]
 
-Leveraged buyout
-====
-
 เป็นกลยุทธ์โดยทั่วไปของ Private equity (กองทุนเอกชน) ที่มักจะใช้กัน
 
 โดยพื้นฐานแล้ว ผู้จัดการกองทุนจะได้รับผลตอบแทนแปรผันตามผลตอบแทนที่กองทุนทำได้
-
 ดังนั้นผู้จัดการกองทุนจึงมีแรงจูงใจให้กองทุนทำกำไรได้มากที่สุด
 
 ดังนั้น หากกองทุนหนึ่งอยากเข้าซื้อกิจการซักกิจการ ก็มักจะการใช้เงินกู้เพื่อเข้าซื้อ 
-
 โดยใช้กิจการนั้นเป็นหลักทรัพย์ค้ำประกัน
 
 หากเข้าซื้อกิจการโดยตรง
@@ -40,7 +35,7 @@ Leveraged buyout
 ![direct-scenarios]({{ site.baseurl }}/images/direct_buyout_scenarios.png)
 *ฉากทัศน์ที่เป็นไปได้*
 
-ใช้ แ buyout
+ใช้ leveraged buyout
 ----
 
 เพื่อป้องกันความเสี่ยง กองทุนสามารถเลือกวิธีการจัดตั้ง `SPV` (Special Purpose Vehicle) คือบริษัทจัดตั้งพิเศษ ด้วยเงิน 20 ล้านบาท
@@ -56,14 +51,14 @@ Leveraged buyout
 
 *กำไร 10 ล้านบาท - ดอกเบี้ย 6 ล้านบาท = ปันผลที่กองทุนได้ 4 ล้านบาท จากเงินลงทุน 20 ล้านบาท*
 
-![leveraged-success]({{ site.baseurl }}/images/levereaged_buyout_success.png)
+![leveraged-success]({{ site.baseurl }}/images/leveraged_buyout_success.png)
 *ฉากทัศน์ที่การลงทุนได้ตามคาดหวัง*
 
 และหากคาดการณ์ผิด โดยกิจการได้กำไรเพียงแค่ 1 ล้านบาท ซึ่งไม่พอจ่ายดอกเบี้ย
 
 SPV ก็จะประกาศล้มละลายและธนาคารก็จะยึดกิจการนั้นไปขายทอดตลาด **โดยที่หนี้จะไม่ไปถึงกองทุนหลัก** 
 
-![leveraged-failed]({{ site.baseurl }}/images/levereaged_buyout_failed.png)
+![leveraged-failed]({{ site.baseurl }}/images/leveraged_buyout_failed.png)
 *ฉากทัศน์ที่การลงทุนผิดพลาด*
 
 ดังนั้น กองทุนหลักจะขาดทุนแค่เงินลงทุนก้อนแรก คิดเป็นขาดทุน 20 ล้านบาท
